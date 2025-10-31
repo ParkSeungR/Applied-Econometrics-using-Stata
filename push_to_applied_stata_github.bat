@@ -1,4 +1,4 @@
-@echo on
+@echo off
 setlocal
 
 :: ===== 사용자 설정 =====
@@ -57,4 +57,4 @@ if errorlevel 1 ( git push -u origin %BRANCH% ) else ( git push ) || ( echo [ERR
 
 echo [OK] 동기화 완료 → %REPO_URL%
 cmd /k
-$\text{timeout /t -1}$
+pause
